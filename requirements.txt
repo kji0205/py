@@ -1,0 +1,4 @@
+beautifulsoup4==4.4.1
+numpy==1.11.0
+pytz==2016.3
+requests==2.9.1

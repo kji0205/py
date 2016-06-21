@@ -1,0 +1,1501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_chil",
+				"_child_iter	statement"
+			],
+			[
+				"_chi",
+				"_child_iter"
+			],
+			[
+				"next",
+				"nextchild"
+			],
+			[
+				"_ch",
+				"_child_iter"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"co",
+				"countdown	function"
+			],
+			[
+				"pa",
+				"path	module"
+			],
+			[
+				"p",
+				"path	module"
+			],
+			[
+				"coun",
+				"country_timezones	statement"
+			],
+			[
+				"ut",
+				"utc_d	statement"
+			],
+			[
+				"min",
+				"minutes"
+			],
+			[
+				"loc",
+				"loc_d	statement"
+			],
+			[
+				"lo",
+				"loc_d	statement"
+			],
+			[
+				"date",
+				"datetime	class"
+			],
+			[
+				"fo",
+				"for	For Loop"
+			],
+			[
+				"mon",
+				"monthrange	function"
+			],
+			[
+				"get",
+				"get_previous_byday	function"
+			],
+			[
+				"day",
+				"day_num"
+			],
+			[
+				"week",
+				"weekdays"
+			],
+			[
+				"time",
+				"timedelta	class"
+			],
+			[
+				"R",
+				"RAND_bytes	function"
+			],
+			[
+				"x",
+				"x	param"
+			],
+			[
+				"fac",
+				"Fraction	class"
+			],
+			[
+				"d",
+				"denominator	function"
+			],
+			[
+				"com",
+				"complex	class"
+			],
+			[
+				"bi",
+				"bit_length"
+			],
+			[
+				"l",
+				"lstat	function"
+			],
+			[
+				"local",
+				"localcontext	function"
+			],
+			[
+				"li",
+				"listdir	function"
+			],
+			[
+				"b",
+				"b	statement"
+			],
+			[
+				"form",
+				"format	function"
+			],
+			[
+				"E",
+				"ExpressionTreeBuilder"
+			],
+			[
+				"tem",
+				"termval"
+			],
+			[
+				"P",
+				"PLUS"
+			],
+			[
+				"Exp",
+				"ExpressEvaluator	class"
+			],
+			[
+				"Ex",
+				"ExpressEvaluator	class"
+			],
+			[
+				"tok",
+				"toktype"
+			],
+			[
+				"s",
+				"scanner	function"
+			],
+			[
+				"a",
+				"a-zA-Z_0-9"
+			],
+			[
+				"ge",
+				"generate_tokens	function"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"hm",
+				"HTMLParser	class"
+			],
+			[
+				"sub",
+				"substitute	function"
+			],
+			[
+				"format",
+				"format_map	function"
+			],
+			[
+				"rs",
+				"rstrip	function"
+			],
+			[
+				"as",
+				"ascii	function"
+			],
+			[
+				"gr",
+				"group	function"
+			],
+			[
+				"grou",
+				"groups	function"
+			],
+			[
+				"text",
+				"text1	statement"
+			],
+			[
+				"fnma",
+				"fnmatchcase	function"
+			],
+			[
+				"fn",
+				"fnmatchcase	function"
+			],
+			[
+				"read",
+				"read_data	function"
+			],
+			[
+				"fil",
+				"filenames	statement"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"row",
+				"rows_by_fname	statement"
+			],
+			[
+				"rows",
+				"rows_by_fname	statement"
+			],
+			[
+				"clas",
+				"class	New Class"
+			],
+			[
+				"word",
+				"word_counts	statement"
+			],
+			[
+				"de",
+				"dedupe	function"
+			],
+			[
+				"pri",
+				"prices_and_names	statement"
+			],
+			[
+				"he",
+				"heappush"
+			],
+			[
+				"tra",
+				"trailing"
+			],
+			[
+				"trail",
+				"trailing_avg"
+			],
+			[
+				"trai",
+				"trailing_qtrs"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"w",
+				"waste_memory"
+			],
+			[
+				"test_to",
+				"test_to_str_bytes"
+			],
+			[
+				"sa",
+				"save_dir"
+			],
+			[
+				"ty",
+				"try	Try/Except"
+			],
+			[
+				"ro",
+				"rounded"
+			],
+			[
+				"rou",
+				"rounding"
+			],
+			[
+				"bis",
+				"bisect_left"
+			],
+			[
+				"nepal",
+				"nepal_dt"
+			],
+			[
+				"utc",
+				"utc_dt"
+			],
+			[
+				"no",
+				"normalize"
+			],
+			[
+				"nyc",
+				"nyc_dt"
+			],
+			[
+				"now",
+				"now_local"
+			],
+			[
+				"ti",
+				"time_str"
+			],
+			[
+				"tim",
+				"time_format"
+			],
+			[
+				"pi",
+				"pickle"
+			],
+			[
+				"load",
+				"loads"
+			],
+			[
+				"sate",
+				"state_after"
+			],
+			[
+				"state",
+				"state_after"
+			],
+			[
+				"sim",
+				"simulate"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"nex",
+				"next_state"
+			],
+			[
+				"count",
+				"count_neighbors"
+			],
+			[
+				"done",
+				"done_queue"
+			],
+			[
+				"upload",
+				"upload_queue"
+			],
+			[
+				"resize",
+				"resize_queue"
+			],
+			[
+				"down",
+				"download"
+			],
+			[
+				"Se",
+				"SENTINEL"
+			],
+			[
+				"threa",
+				"thread"
+			],
+			[
+				"do",
+				"download"
+			],
+			[
+				"upl",
+				"upload_queue"
+			],
+			[
+				"resi",
+				"resize_queue"
+			],
+			[
+				"thread",
+				"threads"
+			],
+			[
+				"thre",
+				"threads"
+			],
+			[
+				"numb",
+				"numbers"
+			],
+			[
+				"factor",
+				"factorize"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"run",
+				"run_openssl"
+			],
+			[
+				"Be",
+				"BetterCustomer"
+			],
+			[
+				"in",
+				"internal_name"
+			],
+			[
+				"inter",
+				"internal_name"
+			],
+			[
+				"Ser",
+				"Serialized"
+			],
+			[
+				"seria",
+				"serialize"
+			],
+			[
+				"seri",
+				"serialize"
+			],
+			[
+				"serial",
+				"Serialized"
+			],
+			[
+				"jso",
+				"json"
+			],
+			[
+				"se",
+				"Serialized"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"Serial",
+				"Serializable"
+			],
+			[
+				"Va",
+				"ValidatePolygon"
+			],
+			[
+				"me",
+				"metaclass"
+			],
+			[
+				"Pol",
+				"Polygon"
+			],
+			[
+				"class",
+				"class_dict"
+			],
+			[
+				"data",
+				"data_dict"
+			],
+			[
+				"B",
+				"BrokenDictionaryDB"
+			],
+			[
+				"Sav",
+				"SavingDB"
+			],
+			[
+				"__get",
+				"__getattribute__"
+			],
+			[
+				"ins",
+				"instance"
+			],
+			[
+				"qu",
+				"quota"
+			],
+			[
+				"quo",
+				"quota"
+			],
+			[
+				"per",
+				"period_delta"
+			],
+			[
+				"pre",
+				"period_delta"
+			],
+			[
+				"r",
+				"r7"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/_Code/pystudy/a",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/nodejs.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/runJava.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/runJava.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"html	",
+				"Snippet: html"
+			],
+			[
+				"snit",
+				"Snippet: html"
+			],
+			[
+				"",
+				"ASPComment: Comment out current selection in ASP."
+			],
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"select",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htmnl",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"json",
+				"Pretty JSON: Validate"
+			],
+			[
+				"Snippet: 	",
+				"Snippet: Dim"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"pwd",
+			"ls",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/_Code/pystudy"
+	],
+	"file_history":
+	[
+		"/D/_Code/py/cookbook/CHAPTER04/c4_4.py",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Python34/lib/ntpath.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_16.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_1.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_2.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_3.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_4.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_5.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_6.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_7.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_8.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_9.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_10.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_11.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_12.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_13.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_14.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c3_15.py",
+		"/C/Python34/lib/site-packages/pytz/__init__.py",
+		"/C/Python34/Lib/site-packages/pytz/zoneinfo/America/North_Dakota/Beulah",
+		"/D/_Code/py/myvenv/Lib/site-packages/win32com/test/testPyScriptlet.js",
+		"/C/Python34/lib/fractions.py",
+		"/D/_Code/py/myvenv/Lib/site-packages/numpy/lib/_datasource.py",
+		"/D/_Code/py/cookbook/CHAPTER03/script.py",
+		"/D/_Code/py/cookbook/CHAPTER03/c1_1.py",
+		"/D/_Code/py/cookbook/m.py",
+		"/D/_Code/py/cookbook/2.14.py",
+		"/D/_Code/py/cookbook/2.15.py",
+		"/D/_Code/py/cookbook/2.16.py",
+		"/D/_Code/py/cookbook/2.17.py",
+		"/D/_Code/py/cookbook/test.py",
+		"/D/_Code/py/cookbook/2.18.py",
+		"/D/_Code/py/cookbook/2.19.py",
+		"/D/_Code/py/cookbook/2.19-2.py",
+		"/D/_Code/py/cookbook/2.20.py",
+		"/D/_Code/py/cookbook/somefile.txt",
+		"/C/Python34/lib/os.py",
+		"/C/Python34/lib/site-packages/ply/yacc.py",
+		"/D/_Code/py/cookbook/2.18-2.py",
+		"/D/_Code/py/cookbook/2.7.py",
+		"/D/_Code/py/cookbook/2.11.py",
+		"/D/_Code/py/cookbook/2.12.py",
+		"/D/_Code/py/cookbook/2.13.py",
+		"/D/_Code/py/cookbook/somefile1.txt",
+		"/D/_Code/py/2.8.py",
+		"/D/_Code/py/2.9.py",
+		"/D/_Code/py/2.10.py",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/_Code/py/py.sublime-project",
+		"/D/_Code/py/2.7.py",
+		"/D/_Code/py/cookbook/1.12.py",
+		"/D/_Code/py/cookbook/1.13.py",
+		"/D/_Code/py/cookbook/1.14.py",
+		"/D/_Code/py/1.15.py",
+		"/D/_Code/py/1.16.py",
+		"/D/_Code/py/1.17.py",
+		"/D/_Code/py/1.18.py",
+		"/D/_Code/py/1.19.py",
+		"/D/_Code/py/1.20.py",
+		"/D/_Code/py/2.1.py",
+		"/D/_Code/py/2.2.py",
+		"/D/_Code/py/2.3.py",
+		"/D/_Code/py/2.4.py",
+		"/D/_Code/py/2.5.py",
+		"/D/_Code/py/2.6.py",
+		"/D/_Code/py/CHAPTER05/bw37.py",
+		"/D/_Code/py/cookbook/test.c",
+		"/D/_Code/py/cookbook/hello.java",
+		"/D/_Code/py/cookbook/1.11.py",
+		"/C/Python34/lib/re.py",
+		"/C/Python34/lib/sre_constants.py",
+		"/C/Python34/lib/collections/__init__.py",
+		"/D/home/weping/_jscript/slides.js",
+		"/D/home/weping/_include_new/_main_8.asp",
+		"/D/home/weping/_include_new/_main_24.asp",
+		"/D/_Code/py/None",
+		"/D/_Code/py/cookbook/1.9.py",
+		"/D/_Code/py/cookbook/1.10.py",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/User/runJava.sublime-build",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/User/C.sublime-build",
+		"/D/_Code/py/cookbook/Test.java",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/User/JavaC.sublime-build.bak.sublime-build",
+		"/D/_Code/py/cookbook/1.1.py",
+		"/D/_Code/py/cookbook/1.2.py",
+		"/D/_Code/py/cookbook/1.3.py",
+		"/D/_Code/py/cookbook/1.4.py",
+		"/D/_Code/py/cookbook/1.5.py",
+		"/D/_Code/py/cookbook/1.6.py",
+		"/D/_Code/py/cookbook/1.7.py",
+		"/D/_Code/py/cookbook/1.8.py",
+		"/D/_Code/py/CHAPTER08/using_gc.py",
+		"/D/_Code/py/CHAPTER08/bw54.py",
+		"/D/_Code/py/CHAPTER08/dev_main.py",
+		"/D/_Code/py/CHAPTER08/prod_main.py",
+		"/D/_Code/py/CHAPTER08/db_connection.py",
+		"/D/_Code/py/CHAPTER08/bw55.py",
+		"/D/_Code/py/CHAPTER08/bw56.py",
+		"/D/_Code/py/CHAPTER08/bw56_test.py",
+		"/D/_Code/py/CHAPTER08/bw57.py",
+		"/D/_Code/py/CHAPTER08/bw58.py",
+		"/D/_Code/py/CHAPTER07/dialog.py",
+		"/D/_Code/py/CHAPTER05/bw36.py",
+		"/D/_Code/py/CHAPTER06/bw44.py",
+		"/D/_Code/py/CHAPTER06/bw45.py",
+		"/D/_Code/py/CHAPTER06/dt.py",
+		"/D/_Code/py/CHAPTER06/bw46.py",
+		"/D/_Code/py/CHAPTER06/bw47.py",
+		"/D/_Code/py/CHAPTER07/bw49.py",
+		"/D/_Code/py/CHAPTER07/bw59.py",
+		"/D/_Code/py/CHAPTER07/mypackage/models.py",
+		"/D/_Code/py/CHAPTER07/mypackage/__init__.py",
+		"/D/_Code/py/CHAPTER07/bw51.py",
+		"/D/_Code/py/CHAPTER07/app.py",
+		"/D/_Code/py/CHAPTER07/main.py",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/Default/exec.py",
+		"/D/_Code/py/CHAPTER07/my_module.py",
+		"/D/_Code/py/CHAPTER07/api_consumer.py",
+		"/D/_Code/py/CHAPTER07/mypackage/utils.py",
+		"/D/_Code/py/CHAPTER07/bw52.py",
+		"/C/Users/Yunaz/AppData/Roaming/Sublime Text 3/Packages/PackageResourceViewer/PackageResourceViewer.sublime-settings",
+		"/C/Python34/lib/_strptime.py",
+		"/D/_Code/py/CHAPTER06/bw43.py",
+		"/D/_Code/py/CHAPTER06/bw42.py",
+		"/D/_Code/py/CHAPTER05/bw41.py",
+		"/D/_Code/py/CHAPTER05/bw40-lifegame.py",
+		"/D/_Code/py/CHAPTER05/bw40.py",
+		"/D/_Code/PyInstaller-3.1.1/pyinstaller.py"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+			"D:\\_Code\\py\\cookbook",
+			"D:\\home\\weping",
+			"D:\\home\\weping\\mallinmall"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_CountryTimezoneDict",
+			"country_timezones",
+			"sample",
+			"choice",
+			"format",
+			"LRParser",
+			"parse",
+			"as f",
+			"cp949",
+			"unicode",
+			"utf",
+			"time",
+			"handle",
+			"ignored_packages",
+			"finish",
+			"path",
+			"cmd",
+			"build",
+			"ColumnPrinter",
+			"13",
+			"SequenceNode",
+			"mapreduce",
+			"TemporaryDirectory",
+			"send",
+			"contact",
+			"cake",
+			"',\n",
+			"core",
+			"remove",
+			"dataStore",
+			"getElement",
+			"front",
+			"displayList",
+			"browser",
+			"수익",
+			"수익금",
+			"comma",
+			"function encQuote",
+			"extend",
+			"marketPrice",
+			"시중가",
+			"_include_new",
+			"isAddOption",
+			"getUserLevelDiscount",
+			"noCache",
+			"function noCache",
+			"makePayPlugin",
+			",",
+			"차감",
+			"isSelected",
+			"AUTH_DEALER_SUBKEY_DLSKEY",
+			"<tr><td>TBODY</td></tr>",
+			">\n",
+			"checkName",
+			"sameAdd",
+			"checkOverlap",
+			"guid",
+			",",
+			"goodsOption11",
+			",",
+			"orderno",
+			"\":\"\"}",
+			"select",
+			"수취인",
+			"optionprice",
+			"function defineUpload",
+			"sub defineUpload",
+			"옵션정보",
+			"추가",
+			"옵션정보",
+			"옵션정보 다운로드",
+			"옵셙정보 다운로드",
+			"mainImgURL",
+			"GoodsImg",
+			"차감 유/",
+			"useSolution",
+			"action",
+			"select",
+			"출고지",
+			"PriceSplit",
+			"dismargin",
+			"placeOfOrigin",
+			"f_placeOfOrigin",
+			"function opencalendar",
+			"opencalendar",
+			"script",
+			"openCalendar",
+			"date",
+			"checkprice",
+			"\"Price",
+			"price",
+			"cate1",
+			"category",
+			"SYR",
+			"execRsList",
+			"function execRsData",
+			"execRsData",
+			"margin",
+			"checkPrice",
+			"checkGoodsCmsType",
+			"checkPrice",
+			"가격입력",
+			"arrIsIcon",
+			"OpinionRate",
+			"CM_GDTYPE_GNG",
+			"cfgCateDepth",
+			"f_category1",
+			"UPLOAD_MAX_SIZE_IMAGE",
+			"UPLOAD_MAX_SIZE",
+			"fileUpload",
+			"fileUploadDext",
+			"setMaxFileLength ",
+			"uploadfile",
+			"authAdmin",
+			"execChangeCate",
+			"GoodsFeeType",
+			"과세상품",
+			"부가세",
+			"encoding",
+			"changeDealer",
+			"분료",
+			"changeCate",
+			"initCate",
+			"분류",
+			"<form",
+			"form",
+			"<form",
+			"[\"ctrl+shift"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\r\\n",
+			"<tr><td>TBODY</td><td>TBODY</td></tr>",
+			"\\r\\n",
+			"수령인",
+			", "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/_Code/pystudy/a",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 285.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 262.0
+	},
+	"pinned_build_system": "",
+	"project": "pystudy.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"goodsoption",
+				"weping_m\\goods\\goodsOption.asp"
+			],
+			[
+				"goodsmain",
+				"weping\\goods\\goodsMain.KJI.asp"
+			],
+			[
+				"commoncode",
+				"weping\\_include\\common_code.asp"
+			],
+			[
+				"function.fil",
+				"weping\\_lib\\function.File.asp"
+			],
+			[
+				"goodsmainnew",
+				"weping\\goods\\goodsMainNew.asp"
+			],
+			[
+				"clien",
+				"weping\\lunchtime\\client.html"
+			],
+			[
+				"start",
+				"weping\\lunchtime\\start.asp"
+			],
+			[
+				"reg_goods_form",
+				"weping\\_lib\\goods\\reg_goods_form.asp"
+			],
+			[
+				"complexexcelfileupload",
+				"weping\\admin\\goods\\complexExcelFileUpload.asp"
+			],
+			[
+				"complexexcelfiledown",
+				"weping\\admin\\goods\\complexExcelFileDown.asp"
+			],
+			[
+				"ordermain",
+				"weping\\goods\\orderMain.asp"
+			],
+			[
+				"goods_reg",
+				"weping\\mallinmall\\goods\\goods_reg.asp"
+			],
+			[
+				"class.order",
+				"weping\\_lib\\order\\class.OrderData.asp"
+			],
+			[
+				"class",
+				"weping\\_lib\\goods\\class.GoodsData.asp"
+			],
+			[
+				"a.",
+				"weping\\a.asp"
+			],
+			[
+				"exec_category_gosi",
+				"weping\\common\\ajax\\exec_Category_Gosi.asp"
+			],
+			[
+				"exec_get",
+				"weping_seller\\common\\exec_getCategory.asp"
+			],
+			[
+				"function.goodsreg",
+				"weping\\_lib\\goods\\function.GoodsRegist.asp"
+			],
+			[
+				"goods_regok",
+				"weping_seller\\goods\\goods_regOk.asp"
+			],
+			[
+				"configdel",
+				"weping_seller\\setup\\configDelivery.asp"
+			],
+			[
+				"delivery.asp",
+				"weping_seller\\_include\\_delivery.asp"
+			],
+			[
+				"function.goodsre",
+				"weping\\_lib\\goods\\function.GoodsRegist.asp"
+			],
+			[
+				"isobject",
+				"weping\\test\\demos\\jqxbulletchart\\javascript-bullet-chart-rtl.htm"
+			],
+			[
+				"",
+				"weping\\_lib\\goods\\reg_goods_form.asp"
+			],
+			[
+				"reg_goods_form_ajb",
+				"weping\\_lib\\goods\\reg_goods_form_ajb.asp"
+			],
+			[
+				"closer.asp",
+				"weping\\_include\\closer.asp"
+			],
+			[
+				"config.asp",
+				"weping\\mallinmall\\_include\\config.asp"
+			],
+			[
+				"goodsregi",
+				"weping\\_lib\\goods\\function.GoodsRegist.asp"
+			],
+			[
+				"config",
+				"weping\\_include\\config.asp"
+			],
+			[
+				"defin",
+				"weping\\_include\\define.asp"
+			],
+			[
+				"common_code",
+				"weping\\_include\\common_code.asp"
+			],
+			[
+				"/_lib/goods/reg_goods_form",
+				"weping\\_lib\\goods\\reg_goods_form.asp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\home\\weping_mobile.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

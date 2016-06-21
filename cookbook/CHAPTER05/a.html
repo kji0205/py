@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+        <style>
+        img{width:100px; height: 100px; margin: 10px;}
+        </style>
+    </head>
+    <body>
+        <img src="a01.png" alt="a01"><br>
+        <img src="a02.png" alt="a02"><br>
+        <img src="a03.png" alt="a03"><br>
+        <img src="a04.png" alt="a04"><br>
+        <img src="a05.png" alt="a05"><br>
+        <img src="a06.png" alt="a06"><br>
+        <img src="a07.png" alt="a07"><br>
+        <img src="a08.png" alt="a08"><br>
+        <img src="a09.png" alt="a09"><br>
+        <img src="a10.png" alt="a10"><br>
+
+        <img src="a08.png" alt="a08"><br>
+        <img src="a09.png" alt="a09"><br>
+        <img src="a10.png" alt="a10"><br>
+        <script type="text/javascript">
+console.log(document.body.scrollHeight);
+        $(window).scroll(function() {
+            console.log($(window).scrollTop());
+            console.log($(document).height());
+                console.log($(window).height());
+
+            var a = $("body img:last");
+            var position = a.offset();
+            console.log(position.top);
+
+            if ($(window).scrollTop()-200 < position.top) {
+
+
+                alert('End of Window');
+            }
+        });
+        </script>
+    </body>
+</html>

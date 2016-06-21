@@ -1,0 +1,7 @@
+Validating the number of forms in a formset¶
+
+Django provides a couple ways to validate the minimum or maximum number of submitted forms. Applications which need more customizable validation of the number of forms should use custom formset validation.
+
+validate_max¶
+
+If validate_max=True is passed to formset_factory(), validation will also check that the number of forms in the data set, minus those marked for deletion, is less than or equal to max_num.

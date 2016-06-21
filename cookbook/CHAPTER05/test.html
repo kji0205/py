@@ -1,0 +1,627 @@
+
+<!doctype html>
+<html class="no-js" lang="ko">
+<head>
+    <link rel="shortcut icon" href="http://school8478.cafe24.com/fa.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes">
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MSH - PORTFOLIO</title>
+    <!--[if lte IE 8]>
+    <script src="http://school8478.cafe24.com/js/html5.js"></script>
+    <![endif]-->
+    <script>
+    // 자바스크립트에서 사용하는 전역변수 선언
+    var g5_url       = "http://school8478.cafe24.com";
+    var g5_bbs_url   = "http://school8478.cafe24.com/bbs";
+    var g5_is_member = "";
+    var g5_is_admin  = "";
+    var g5_is_mobile = "";
+    var g5_bo_table  = "";
+    var g5_sca       = "";
+    var g5_editor    = "";
+    var g5_cookie_domain = "";
+    </script>
+    <script src="http://school8478.cafe24.com/js/jquery-1.8.3.min.js"></script>
+    <script src="http://school8478.cafe24.com/js/jquery.menu.js"></script>
+    <script src="http://school8478.cafe24.com/js/common.js"></script>
+    <script src="http://school8478.cafe24.com/js/wrest.js"></script>
+
+    <!--animate 플래쉬 효과-->
+    <link rel="stylesheet" href="http://school8478.cafe24.com/css/animate.min.css" type="text/css" rel="stylesheet">
+
+    <!--animation 플래쉬 효과-->
+    <link rel="stylesheet" href="http://school8478.cafe24.com/css/animation.css" type="text/css" rel="stylesheet">
+
+    <!--텍사스 자동 반응형-->
+    <script src="http://school8478.cafe24.com/js/jquery.expandable.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="http://school8478.cafe24.com/css/font-awesome.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="http://school8478.cafe24.com/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+
+    <!--부트스트랩-->
+    <script src="http://school8478.cafe24.com/theme/basic/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://school8478.cafe24.com/theme/basic/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <!--그누스트랩-->
+    <script src="http://school8478.cafe24.com/theme/basic/js/gnustrap.js"></script>
+    <link rel="stylesheet" href="http://school8478.cafe24.com/theme/basic/css/gnustrap.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://school8478.cafe24.com/css/default.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://school8478.cafe24.com/js/html5.js"></script>
+      <script src="http://school8478.cafe24.com/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--모달 팝업창 -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+</div><!-- 상단 시작 { -->
+
+<!-- 팝업레이어 시작 { -->
+<span class="sound_only">팝업레이어 알림이 없습니다.</span>
+<script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+    $("#hd").css("z-index", 1000);
+});
+</script>
+<!-- } 팝업레이어 끝 -->
+
+<div id="wrapper">
+    <header id="header">
+        <!--로고-->
+        <div id="site-logo">
+            <a href="http://school8478.cafe24.com"></a>
+        </div>
+        <div class="inner-header"><div class="inner-header-icon inner-header-icon-out"><span></span><span></span></div></div>
+
+        <nav class="nav" id="nav-menu">
+            <div class="dv-topbar">
+                <span class="search"><a href="http://school8478.cafe24.com/bbs/search.php"><i class="fa fa-search fa-fw"></i> 검색</a></span>
+                                <span class="log"><a href="http://school8478.cafe24.com/bbs/login.php"><i class="fa fa-sign-in fa-fw"></i> 관리자 로그인</a></span>
+                                                                            </div>
+
+                        <span class="dropdown">
+                <a href="/bbs/board.php?bo_table=db_table01" target="_self">
+                <i class="fa fa-tasks"></i>[MSH] PHOTOSHOP<!--i class="caret"></i--></a>
+                            </span>
+                        <span class="dropdown">
+                <a href="http://school8478.cafe24.com/bbs/board.php?bo_table=db_table02" target="_self">
+                <i class="fa fa-tasks"></i>[MSH] ILLUSTRATOR<!--i class="caret"></i--></a>
+                            </span>
+                        <span class="dropdown">
+                <a href="http://school8478.cafe24.com/bbs/board.php?bo_table=db_table03" target="_self">
+                <i class="fa fa-tasks"></i>[MSH] HTML<!--i class="caret"></i--></a>
+                            </span>
+                        <span class="dropdown">
+                <a href="http://school8478.cafe24.com/bbs/board.php?bo_table=db_table04" target="_self">
+                <i class="fa fa-tasks"></i>[MSH] SITE<!--i class="caret"></i--></a>
+                            </span>
+                    </nav>
+    </header>
+    <div id="content">
+        <div id="content-main">
+
+            <link rel="stylesheet" href="http://school8478.cafe24.com/theme/basic/css/jquery.fullpage.css" />
+            <script type="text/javascript" src="http://school8478.cafe24.com/theme/basic/js/jquery.fullPage.js"></script>
+            <link rel="stylesheet" href="http://school8478.cafe24.com/theme/basic/css/main.css" />
+            <script type="text/javascript" src="http://school8478.cafe24.com/theme/basic/js/main.js"></script>
+            <script type="text/javascript" src="http://school8478.cafe24.com/theme/basic/js/jquery.backgroundvideo.js"></script>
+            <script type="text/javascript" src="http://school8478.cafe24.com/theme/basic/js/textualizer.js"></script>
+            <script type="text/javascript" src="http://school8478.cafe24.com/theme/basic/js/jquery.fittext.js"></script>
+
+            <div id="fullpage">
+
+                <!--// index contents 01 //-->
+                <div class="section" id="section0">
+                    <div class="dv_sec_form">
+                        <div class="dv_sec_txt_form">
+                            <p>Come on, it's nothing.</p>
+                            <p>That wouldn't bo too hard.</p>
+                            <p>i'm sure you will pass it.</p>
+                        </div>
+                        <div class="dv_sec_tit_form">
+                            <h1>WEB Publishing - M.S.H</h1>
+                        </div>
+                    </div>
+                    <div class="dv_sec_video_form"></div>
+                    <div class="dv_sec_btn_form">
+                        <div class="icon_scroll">
+                            <a class="icon_mov_scroll"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--// index contents 02 //-->
+                <div class="section" id="section1">
+
+                    <div class="cd-main-content">
+                        <div class="center">
+                            <h1>MY PROFILE</h1>
+                            <span class="cd-btn cd-modal-trigger">SKIP</span>
+                        </div>
+                    </div>
+
+                    <div class="cd-modal">
+
+                        <a class="modal-close">Close</a>
+                        <div class="modal-content">
+                            <div class="modal-cont-scroll">
+                                <h1>My PROFILE CONTENT</h1>
+                                <p>
+                                    이름 : 문성호<br />
+                                    나이 : 1984년 7월 8일생(만 31세)<br />
+                                    연락처 : 010-4992-0492<br />
+                                    이메일 : school8478@naver.com<br />
+                                </p>
+                                <p>
+                                    <b>사용가능 프로그램</b><br />
+                                    3D MAX//포토샵//일러스트//드림위버//플래시//프리미어//에프터이펙트<br />
+                                </p>
+                                <p>
+                                    <b>웹퍼블리싱</b><br />
+                                    HTML//CSS//JAVASCRIPT[JQUERY]
+                                </p>
+                                <p>
+                                    <b>웹퍼블리싱 가능 웹언어[해당 소스 분석 및 변경 가능]</b><br />
+                                    ASP//PHP[그누보드·XE]<br />
+                                </p>
+                                <p>
+                                    <b>웹퍼블리싱 가능 웹언어[HTML코딩 셋팅 가능]</b><br />
+                                    JSP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cd-transition-layer">
+                        <div class="bg-layer"></div>
+                    </div>
+
+                    <div class="dv_sec_btn_form">
+                        <div class="icon_scroll">
+                            <a class="icon_mov_scroll"></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--// index contents 03 //-->
+                <div class="section" id="section2">
+
+                    <div class="sec_lt">
+                        <div class="dv_sec_lt_tit">
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_photo.svg" />
+                            <span class="spn_sec_lt_tit">MY PORTFOLIO</span>
+                            <span class="spn_sec_lt_txt">PHOTOSHOP</span>
+                        </div>
+                    </div>
+
+                    <div class="sec_rt">
+
+                        <div class="dv_sec_btn_form">
+                            <div class="icon_scroll">
+                                <a class="icon_mov_scroll"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--// index contents 04 //-->
+                <div class="section" id="section3">
+
+                    <div class="sec_lt">
+                        <div class="dv_sec_lt_tit">
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_illust.svg" />
+                            <span class="spn_sec_lt_tit">MY PORTFOLIO</span>
+                            <span class="spn_sec_lt_txt">ILLUSTRATOR</span>
+                        </div>
+                    </div>
+
+                    <div class="sec_rt">
+
+                        <div class="dv_sec_btn_form">
+                            <div class="icon_scroll">
+                                <a class="icon_mov_scroll"></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--// index contents 05 //-->
+                <div class="section" id="section4">
+
+                    <div class="sec_lt">
+
+                        <div class="dv_sec_lt_tit">
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_html.svg" />
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_css.svg" />
+                            <span class="spn_sec_lt_tit">MY PORTFOLIO</span>
+                            <span class="spn_sec_lt_txt">HTML5/CSS3</span>
+                        </div>
+
+                    </div>
+
+                    <div class="sec_rt">
+
+                        <div class="dv_sec_btn_form">
+                            <div class="icon_scroll">
+                                <a class="icon_mov_scroll"></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--// index contents 06 //-->
+                <div class="section" id="section5">
+
+                    <div class="sec_lt">
+
+                        <div class="dv_sec_lt_tit">
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_explorer.svg" />
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_chrome.svg" />
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_firefox.svg" />
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_safari.svg" />
+                            <img src="http://school8478.cafe24.com/theme/basic/img/icon_opera.svg" />
+                            <span class="spn_sec_lt_tit">MY PORTFOLIO</span>
+                            <span class="spn_sec_lt_txt">SITE</span>
+                        </div>
+
+                    </div>
+
+                    <div class="sec_rt">
+
+                        <div class="dv_sec_btn_form">
+                            <div class="icon_scroll">
+                                <a class="icon_mov_scroll"></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--// index contents 07 //-->
+                <div class="section" id="section6">
+
+                    <div class="slide" data-anchor="slide1">
+                        <div class="dv_slide_form">
+                            <div class="sl-deco" id="slide_de_01" data-icon="89"></div>
+                            <h2>PHOTOSHOP SKILL</h2>
+                            <blockquote><p>전반적인 포토샵을 활용하여 디자인을 제작 가능합니다.</p><cite>E-mail : school8478@naver.com</cite></blockquote>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-anchor="slide2">
+                        <div class="dv_slide_form">
+                            <div class="sl-deco" id="slide_de_02" data-icon="90"></div>
+                            <h2>ILLUSTRATOR SKILL</h2>
+                            <blockquote><p>전반적인 일러스트 아이콘 디자인 가능하고, SVG파일로 제작하여 웹페이지에 적용 가능하며 캐릭터 디자인도 제작 가능합니다.</p><cite>E-mail : school8478@naver.com</cite></blockquote>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-anchor="slide3">
+                        <div class="dv_slide_form">
+                            <div class="sl-deco" id="slide_de_03" data-icon="92"></div>
+                            <h2>HTML5 · CSS3 · CROSSBROWSING SKILL</h2>
+                            <blockquote><p>웹사이트 제작에 있어 필수적인 요소로 HTML과 CSS를 활용하여 전반적인 크로스브라우징 제작 가능합니다.</p><cite>E-mail : school8478@naver.com</cite></blockquote>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-anchor="slide4">
+                        <div class="dv_slide_form">
+                            <div class="sl-deco" id="slide_de_04" data-icon="88"></div>
+                            <h2>JAVASCRIPT SKILL</h2>
+                            <blockquote><p>자바스크립트를 활용한 웹사이트 모션 그래픽 및 오픈소스를 활용하여 PHP·ASP·HTML에 필요한 기능 구현 가능합니다.</p><cite>E-mail : school8478@naver.com</cite></blockquote>
+                        </div>
+                    </div>
+
+                    <div class="slide" data-anchor="slide5">
+                        <div class="dv_slide_form">
+                            <div class="sl-deco" id="slide_de_05" data-icon="88"></div>
+                            <h2>PHP·ASP·JSP SKILL</h2>
+                            <blockquote><p>카페24의 PHP를 통한 전체적인 웹사이트 구축·디자인·일부 개발소스 변경 가능하며, ASP·JSP는 HTML과 CSS를 통한 크로스브라우징 웹페이지 제작이 가능합니다.</p><cite>E-mail : school8478@naver.com</cite></blockquote>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+
+            $(document).ready(function() {
+
+                $(".modal-content h2").fitText(3);
+                $(".modal-content p").fitText(3.8, { minFontSize: '10px' });
+                $(".dv_slide_form h2").fitText(3.3, { minFontSize: '11px' });
+                $(".dv_slide_form blockquote p").fitText(3.4, { minFontSize: '10px' });
+                $(".dv_slide_form blockquote site").fitText(3.6, { minFontSize: '10px' });
+                $(".spn_sec_lt_tit").fitText(2.4, { minFontSize: '11px' });
+                $(".spn_sec_lt_txt").fitText(3.4, { minFontSize: '11px' });
+
+                $('.dv_sec_txt_form').textualizer('start');
+
+                var videobackground = new $.backgroundVideo($('.dv_sec_video_form'), {
+                    "align": "centerXY",
+                    "width": 1280,
+                    "height": 720,
+                    "path": "http://school8478.cafe24.com/theme/basic/media/",
+                    "filename": "cloud",
+                    "types": ["mp4","ogg","webm"]
+                });
+
+                $(".mobile-inner-header-icon").click(function(){
+                    $(this).toggleClass("mobile-inner-header-icon-click mobile-inner-header-icon-out");
+                    $(".mobile-inner-nav").slideToggle(250);
+                });
+
+                $(".mobile-inner-nav a").each(function( index ) {
+                    $( this ).css({'animation-delay': (index/10)+'s'});
+                });
+
+                $(".modal-close").css({"top" : ($(window).height() - $(".modal-content").height())/2.8 , "right" : ($(window).width() - $(".modal-content").width())/4.2 });
+
+                if ( $(".modal-content").height() > $(window).height() ) {
+
+                    $('#fullpage').fullpage({
+                        resize: true,
+                        verticalCentered: true,
+                        navigation: false,
+                        navigationPosition: 'right',
+                        slidesNavigation: false,
+                        scrollBar: false,
+                        autoScrolling: false,
+                        fitToSection: false,
+
+                        //event
+                        afterLoad: function(anchorLink, index){
+
+                            var loadedSection = $(this);
+
+                            if(index == 1|| index == 7){
+                                $("#header").css({"padding":"20px 0","background":"rgba(255, 255, 255, 1)","border-bottom":"1px solid rgba(229, 65, 45, 1)"});
+                                $("#site-logo a").css({"background-position" : "0px 0px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(229, 65, 45, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+40, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(229, 65, 45, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(229, 65, 45, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                            if(index == 2){
+                                $("#header").css({"padding":"10px 0","background":"rgba(0, 0, 0, 0.5)","border-bottom":"3px solid rgba(255, 255, 255, 0.9)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()*2+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(255, 255, 255, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23 , "background" : "rgba(0, 0, 0, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(255, 255, 255, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(255, 255, 255, 1)"});
+                            }
+
+                            if(index == 3 || index == 4 || index == 5  || index == 6 ){
+                                $("#header").css({"padding":"10px 0","background":"rgba(255, 255, 255, 0.5)","border-bottom":"3px solid rgba(0, 0, 0, 0.8)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(0, 0, 0, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(0, 0, 0, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(0, 0, 0, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                        }
+
+                    });
+
+                    $(".modal-content").css({"top" : ( $(".modal-content").height() - $(window).height() )/2, "height" : $(window).height()/1.6 ,   "overflow-y" : "scroll" });
+
+                } else if ( $(window).width() <= 600 ) {
+
+                    $('#fullpage').fullpage({
+
+                        resize: true,
+                        verticalCentered: true,
+                        navigation: true,
+                        navigationPosition: 'right',
+                        slidesNavigation: false,
+                        scrollBar: true,
+                        autoScrolling: true,
+                        fitToSection: true,
+
+                        //event
+                        afterLoad: function(anchorLink, index){
+
+                            var loadedSection = $(this);
+
+                            if(index == 1|| index == 7){
+                                $("#header").css({"padding":"20px 0","background":"rgba(255, 255, 255, 1)","border-bottom":"1px solid rgba(229, 65, 45, 1)"});
+                                $("#site-logo a").css({"background-position" : "0px 0px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(229, 65, 45, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+40, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(229, 65, 45, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(229, 65, 45, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                            if(index == 2){
+                                $("#header").css({"padding":"10px 0","background":"rgba(0, 0, 0, 0.5)","border-bottom":"3px solid rgba(255, 255, 255, 0.9)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()*2+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(255, 255, 255, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23 , "background" : "rgba(0, 0, 0, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(255, 255, 255, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(255, 255, 255, 1)"});
+                            }
+
+                            if(index == 3 || index == 4 || index == 5  || index == 6 ){
+                                $("#header").css({"padding":"10px 0","background":"rgba(255, 255, 255, 0.5)","border-bottom":"3px solid rgba(0, 0, 0, 0.8)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(0, 0, 0, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(0, 0, 0, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(0, 0, 0, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                        }
+
+                    });
+
+                    $(".modal-content").css({"top" : ($(window).height() - $(".modal-content").height())/2 });
+
+                } else {
+
+                    $('#fullpage').fullpage({
+                        resize: true,
+                        verticalCentered: true,
+                        navigation: true,
+                        navigationPosition: 'right',
+                        slidesNavigation: true,
+                        scrollBar: true,
+                        autoScrolling: true,
+                        fitToSection: true,
+
+                        //event
+                        afterLoad: function(anchorLink, index){
+
+                            var loadedSection = $(this);
+
+                            if(index == 1|| index == 7){
+                                $("#header").css({"padding":"20px 0","background":"rgba(255, 255, 255, 1)","border-bottom":"1px solid rgba(229, 65, 45, 1)"});
+                                $("#site-logo a").css({"background-position" : "0px 0px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(229, 65, 45, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+40, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(229, 65, 45, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(229, 65, 45, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                            if(index == 2){
+                                $("#header").css({"padding":"10px 0","background":"rgba(0, 0, 0, 0.5)","border-bottom":"3px solid rgba(255, 255, 255, 0.9)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()*2+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(255, 255, 255, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23 , "background" : "rgba(0, 0, 0, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(255, 255, 255, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(255, 255, 255, 1)"});
+                            }
+
+                            if(index == 3 || index == 4 || index == 5  || index == 6 ){
+                                $("#header").css({"padding":"10px 0","background":"rgba(255, 255, 255, 0.5)","border-bottom":"3px solid rgba(0, 0, 0, 0.8)"});
+                                $("#site-logo a").css({"background-position" : "0px " + "-"+$("#site-logo a").height()+"px" });
+                                $(".inner-header-icon span").css({"background" : "rgba(0, 0, 0, 1)" });
+                                $("#nav-menu").css({"top": $("#header").height()+23, "background" : "rgba(255, 255, 255, 0.8)" });
+                                $("#nav-menu a, #nav-menu i").css({"color": "rgba(0, 0, 0, 1)" });
+                                $("#fp-nav ul li a span").css({"background" : "rgba(0, 0, 0, 1)"});
+                                $(".modal-close").click();
+                            }
+
+                        }
+
+                    });
+
+                    $(".modal-content").css({"top" : ($(window).height() - $(".modal-content").height())/2 });
+
+                }
+
+            });
+
+            $(window).resize(function() {
+               if ( $(this).width() < 768  ) {
+                    window.location.reload(false);
+               }
+
+               if ( $(this).width() >= 768 ) {
+                    window.location.reload(false);
+               }
+            });
+
+             </script>
+
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+
+    $(".inner-header-icon").click(function(){
+        $(this).toggleClass("inner-header-icon-click inner-header-icon-out");
+        $("#nav-menu").slideToggle(250);
+    });
+    $("#nav-menu > span").each(function( index ) {
+        $(this).css({'animation-delay': (index/10)+'s'});
+    });
+
+    if ($(window).width() >= 601){
+
+        $("#nav-menu").css({"top": $("#header").height()+40, "height" : $(window).height() });
+        $(".content-box").css({ "margin-top" : $("#header").height()+40 });
+
+    } else {
+
+        $("#nav-menu").css({"top": $("#header").height()+40, "height" : $(window).height() });
+        $(".content-box").css({ "margin-top" : $("#header").height()+40 });
+
+    }
+
+});
+$(window).resize(function() {
+    if ($(window).width() >= 601){
+
+        $("#nav-menu").css({"top": $("#header").height()+40, "height" : $(window).height() });
+        $(".content-box").css({ "margin-top" : $("#header").height()+40 });
+
+    }else{
+
+        $("#nav-menu").css({"top": $("#header").height()+40, "height" : $(window).height() });
+        $(".content-box").css({ "margin-top" : $("#header").height()+40 });
+
+    }
+});
+
+$(function() {
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>
